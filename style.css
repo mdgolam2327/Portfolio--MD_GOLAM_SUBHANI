@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+    background-color: #060a13;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #020915, #050016);
+    color: white;
+}
+
+#logo {
+    margin-top: -7px;
+    font-size: 30px;
+    border: none;
+    color: rgb(196, 30, 247);
+}
+
+main {
+    margin-top: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: rgb(180, 172, 117);
+
+    transform: translateY(-2px) scale(1.05);
+}
+
+.top{
+    margin-top: 15px;
+    width: 19vw;
+    font-size: 14px;
+    height: 30px;
+    font-weight: 800;
+    border: 1px solid rgb(179, 108, 246);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #51405e, #683f41);
+}
+
+h1 {
+    font-size: 53px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+#top1{
+    color: rgb(255, 255, 255);
+}
+
+#top2{
+    color: rgb(125, 73, 158);
+}
+
+#top3{
+    color: rgb(148, 147, 147);
+}
+
+img {
+    height: 300px;
+    width: 280px;
+    border: 4px solid rgb(207, 126, 227);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+footer {
+    margin-top: 150px;
+    background: rgb(31, 31, 31);
+    height: 400px;
+    width: 100%;
+}
+
+.text1 {
+    color: rgb(67, 66, 66);
+}
+
+.a1 {
+    color:rgb(151, 151, 151)
+}

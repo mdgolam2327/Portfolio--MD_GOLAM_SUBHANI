@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: #060a13;
+    color: white;
+    
+}
+
+#logo {
+    margin-top: -7px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: rgb(196, 30, 247);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(180, 172, 117);
+
+    transform: translateY(-2px) scale(1.05);
+}
+#main-cards{
+    justify-content: space-between;
+}
+#sujit{
+    width: 50%;
+
+}
+#anshu{
+   width: 45%;
+}
+.crd1 {
+    background-color: #0d1322;
+    color: #e2e8f0;
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.crd1-content {
+    color: rgb(231, 237, 211);
+}
+
+strong {
+    color: #c6cacc;
+}
+
+.crd {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 10px;
+    color: #c6cacc;
+}
+
+#crds {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#crds:hover {
+    color: red;
+    transform: translate(0) scale(1.01);
+}
+
+.academic-card {
+    background: #0d1322;
+    border: 1px solid #1e293b;
+    border-radius: 22px;
+    padding: 30px;
+    color: #e2e8f0;
+    width: 100%;
+    margin-top: 35px;
+    height: 60%;
+}
+
+.academic-card:hover {
+    color: cadetblue;
+    background-color: #101522;
+    transform: translate(0) scale(1.01);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.card-header h3 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.card-header i {
+    color: #00d9ff;
+    /* margin-right: 7px; */
+}
+
+.verified {
+    color: #00e6a0;
+    border: 1px solid #075c4a;
+    background: rgba(0, 230, 160, 0.05);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+.academic-card hr {
+    border-top: 1px solid #263449;
+    opacity: 1;
+    margin: 8px 0 20px;
+}
+
+.stat {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.stat p {
+    color: #94a3b8;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.stat h4 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.stat span {
+    color: #94a3b8;
+    font-family: monospace;
+    font-size: 10px;
+    text-align: right;
+}
+
+.final-txt {
+    color: #a1a8ac;
+    font-size: 15px;
+    margin-top: -4px;
+}
+
+.final-div {
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    padding: 6px 10px;
+    margin-top: 15px;
+}
