@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: #060a13;
+    color: white;
+    
+}
+
+#logo {
+    margin-top: -7px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: rgb(196, 30, 247);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(180, 172, 117);
+
+    transform: translateY(-2px) scale(1.05);
+}
+
+#contact-card {
+    background: #0d1322;
+}
+
+#crds {
+    background-color: #060910;
+}
+
+#crds a{
+    text-decoration: none;
+}
+
+#note {
+    color: rgb(94, 107, 117);
+    background: #0d1322;
+    font-size: 13px;
+}

@@ -79,6 +79,7 @@ strong {
 
 #crds:hover {
     color: red;
+    background-color: #021f19;
     transform: translate(0) scale(1.01);
 }
 
@@ -95,7 +96,8 @@ strong {
 
 .academic-card:hover {
     color: cadetblue;
-    background-color: #101522;
+    background-color: #070b18;
+    box-shadow: 0 0 20px rgb(28, 28, 47);
     transform: translate(0) scale(1.01);
 }
 
